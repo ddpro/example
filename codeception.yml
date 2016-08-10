@@ -15,7 +15,14 @@ extensions:
 modules:
     config:
         Db:
-            dsn: ''
-            user: ''
-            password: ''
-            dump: tests/_data/dump.sql
+            populate: false
+            cleanup: false
+coverage:
+    enabled: true
+    remote: false
+    whitelist:
+        include:
+            - app/Events/*
+            - app/Exceptions/*
+            - app/Http/*
+            - app/Providers/*
