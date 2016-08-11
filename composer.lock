@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "c1a67e2c6fe4fde778fd8bd29cf3a880e238ab16"
+                "reference": "05899234ae2a441a592789af72a480a92546f1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/c1a67e2c6fe4fde778fd8bd29cf3a880e238ab16",
-                "reference": "c1a67e2c6fe4fde778fd8bd29cf3a880e238ab16",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/05899234ae2a441a592789af72a480a92546f1db",
+                "reference": "05899234ae2a441a592789af72a480a92546f1db",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-10 05:12:33"
+            "time": "2016-08-11 09:04:47"
         },
         {
             "name": "delatbabel/applog",
@@ -764,12 +764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ebdc5d72391a5ab17f3ca90b5410e2322a5976d4"
+                "reference": "4f338f494ee2fffe6605f70a7cb8a36c93da95b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ebdc5d72391a5ab17f3ca90b5410e2322a5976d4",
-                "reference": "ebdc5d72391a5ab17f3ca90b5410e2322a5976d4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4f338f494ee2fffe6605f70a7cb8a36c93da95b6",
+                "reference": "4f338f494ee2fffe6605f70a7cb8a36c93da95b6",
                 "shasum": ""
             },
             "require": {
@@ -885,7 +885,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-04 14:14:51"
+            "time": "2016-08-10 12:23:27"
         },
         {
             "name": "league/flysystem",
@@ -893,12 +893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "053fc81ec9a2e9d567e90eef9a02d0b1148b52de"
+                "reference": "50e2045ed70a7e75a5e30bc3662904f3b67af8a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/053fc81ec9a2e9d567e90eef9a02d0b1148b52de",
-                "reference": "053fc81ec9a2e9d567e90eef9a02d0b1148b52de",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/50e2045ed70a7e75a5e30bc3662904f3b67af8a9",
+                "reference": "50e2045ed70a7e75a5e30bc3662904f3b67af8a9",
                 "shasum": ""
             },
             "require": {
@@ -968,7 +968,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-08-04 19:22:52"
+            "time": "2016-08-10 08:55:11"
         },
         {
             "name": "monolog/monolog",
@@ -2593,12 +2593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "9eb03849c8c2cae8c20bc0609258b63997294a4b"
+                "reference": "bbc950e765cd79e9e54c85a583e1d110d2c29366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/9eb03849c8c2cae8c20bc0609258b63997294a4b",
-                "reference": "9eb03849c8c2cae8c20bc0609258b63997294a4b",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/bbc950e765cd79e9e54c85a583e1d110d2c29366",
+                "reference": "bbc950e765cd79e9e54c85a583e1d110d2c29366",
                 "shasum": ""
             },
             "require": {
@@ -2676,7 +2676,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2016-08-06 17:40:10"
+            "time": "2016-08-10 20:44:04"
         },
         {
             "name": "doctrine/instantiator",
@@ -4586,12 +4586,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "1dc8bdd49e54b9b936858dd422096f349e367a85"
+                "reference": "6853c68727010ed251036a9813e0d48675cd00a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/1dc8bdd49e54b9b936858dd422096f349e367a85",
-                "reference": "1dc8bdd49e54b9b936858dd422096f349e367a85",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/6853c68727010ed251036a9813e0d48675cd00a0",
+                "reference": "6853c68727010ed251036a9813e0d48675cd00a0",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-09 15:02:38"
+            "time": "2016-08-10 13:38:24"
         }
     ],
     "aliases": [],
