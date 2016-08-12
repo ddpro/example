@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "05899234ae2a441a592789af72a480a92546f1db"
+                "reference": "79257e49da5ea55c1c8b02bf582b35e91fa76d23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/05899234ae2a441a592789af72a480a92546f1db",
-                "reference": "05899234ae2a441a592789af72a480a92546f1db",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/79257e49da5ea55c1c8b02bf582b35e91fa76d23",
+                "reference": "79257e49da5ea55c1c8b02bf582b35e91fa76d23",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-11 09:04:47"
+            "time": "2016-08-12 06:59:02"
         },
         {
             "name": "delatbabel/applog",
@@ -2593,12 +2593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "bbc950e765cd79e9e54c85a583e1d110d2c29366"
+                "reference": "44076cfaaa6153dcae0e52675b29bc142a79fe69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/bbc950e765cd79e9e54c85a583e1d110d2c29366",
-                "reference": "bbc950e765cd79e9e54c85a583e1d110d2c29366",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/44076cfaaa6153dcae0e52675b29bc142a79fe69",
+                "reference": "44076cfaaa6153dcae0e52675b29bc142a79fe69",
                 "shasum": ""
             },
             "require": {
@@ -2676,7 +2676,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2016-08-10 20:44:04"
+            "time": "2016-08-11 13:33:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2820,12 +2820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "35c600da5abb5a6183ae1f594aea2d865974514c"
+                "reference": "a1dd85c38f033c895f120e4b346cd737098e7c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/35c600da5abb5a6183ae1f594aea2d865974514c",
-                "reference": "35c600da5abb5a6183ae1f594aea2d865974514c",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/a1dd85c38f033c895f120e4b346cd737098e7c4a",
+                "reference": "a1dd85c38f033c895f120e4b346cd737098e7c4a",
                 "shasum": ""
             },
             "require": {
@@ -2862,7 +2862,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-08-09 14:51:36"
+            "time": "2016-08-12 07:13:09"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4586,12 +4586,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "6853c68727010ed251036a9813e0d48675cd00a0"
+                "reference": "61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/6853c68727010ed251036a9813e0d48675cd00a0",
-                "reference": "6853c68727010ed251036a9813e0d48675cd00a0",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a",
+                "reference": "61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-10 13:38:24"
+            "time": "2016-08-11 10:52:21"
         }
     ],
     "aliases": [],
