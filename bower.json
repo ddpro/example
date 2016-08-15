@@ -1,5 +1,5 @@
 {
-  "name": "omnigate",
+  "name": "ddpro-example",
   "version": "1.0",
   "dependencies": {
     "modernizr": "~2.8.3",
