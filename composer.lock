@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "fa3f896b5bf169bf40bbb6ff9949a623df9545ec"
+                "reference": "79cb039ff3856569f89da359980be34262e55544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/fa3f896b5bf169bf40bbb6ff9949a623df9545ec",
-                "reference": "fa3f896b5bf169bf40bbb6ff9949a623df9545ec",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/79cb039ff3856569f89da359980be34262e55544",
+                "reference": "79cb039ff3856569f89da359980be34262e55544",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-15 07:34:02"
+            "time": "2016-08-16 02:13:38"
         },
         {
             "name": "delatbabel/applog",
@@ -1875,12 +1875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "8ea4e8784404851b18c828e92140eaaab1f61719"
+                "reference": "eb9b8010bb7d319b6e89510128e87835ef2a0df0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8ea4e8784404851b18c828e92140eaaab1f61719",
-                "reference": "8ea4e8784404851b18c828e92140eaaab1f61719",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/eb9b8010bb7d319b6e89510128e87835ef2a0df0",
+                "reference": "eb9b8010bb7d319b6e89510128e87835ef2a0df0",
                 "shasum": ""
             },
             "require": {
@@ -1923,7 +1923,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:17:26"
+            "time": "2016-08-15 23:08:46"
         },
         {
             "name": "symfony/http-kernel",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "ea617b8b55e6e33cdd47edeafde5d3f6466049e2"
+                "reference": "04fabc960b478700e287ec496819ae9b41ff50fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/ea617b8b55e6e33cdd47edeafde5d3f6466049e2",
-                "reference": "ea617b8b55e6e33cdd47edeafde5d3f6466049e2",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/04fabc960b478700e287ec496819ae9b41ff50fa",
+                "reference": "04fabc960b478700e287ec496819ae9b41ff50fa",
                 "shasum": ""
             },
             "require": {
@@ -2677,7 +2677,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2016-08-14 12:28:58"
+            "time": "2016-08-15 13:35:49"
         },
         {
             "name": "doctrine/instantiator",
@@ -4589,12 +4589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a"
+                "reference": "0a64afb2cfaf22a36bb4c917849cdee2d008f26a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a",
-                "reference": "61e225b1e1084b7a0e5a51ad8eafd4c0bf16307a",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/0a64afb2cfaf22a36bb4c917849cdee2d008f26a",
+                "reference": "0a64afb2cfaf22a36bb4c917849cdee2d008f26a",
                 "shasum": ""
             },
             "require": {
@@ -4631,7 +4631,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-11 10:52:21"
+            "time": "2016-08-15 15:30:25"
         }
     ],
     "aliases": [],

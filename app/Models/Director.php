@@ -17,7 +17,7 @@ class Director extends Model
 
     public function films()
     {
-        return $this->hasMany('Film');
+        return $this->hasMany('\\App\Models\\Film');
     }
 
     public function getNameAttribute()

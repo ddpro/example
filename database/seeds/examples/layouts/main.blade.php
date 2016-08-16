@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>{{ $page_title or "Test Application" }}</title>
-	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-	<!-- Bootstrap 3.3.4 -->
-	<link href="/bower_components/admin-lte/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<!-- Font Awesome Icons -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<!-- Ionicons -->
-	<link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-	<!-- Theme style -->
-	<link href="/bower_components/admin-lte/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
-	<!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+    <meta charset="UTF-8">
+    <title>{{ $page_title or "Test Application" }}</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.4 -->
+    <link href="/bower_components/admin-lte/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome Icons -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="/bower_components/admin-lte/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-	<link href="/bower_components/admin-lte/dist/css/skins/skin-blue.min.css" rel="stylesheet" type="text/css" />
-	<!-- iCheck -->
-	<link href="/bower_components/admin-lte/plugins/iCheck/square/blue.css" rel="stylesheet" type="text/css" />
-	<!-- omnigate css -->
-	<link href="/css/omnigate.css" rel="stylesheet" type="text/css" />
+    <link href="/bower_components/admin-lte/dist/css/skins/skin-blue.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="/bower_components/admin-lte/plugins/iCheck/square/blue.css" rel="stylesheet" type="text/css" />
+    <!-- omnigate css -->
+    <link href="/css/omnigate.css" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,37 +52,37 @@ desired effect
 <body class="skin-blue sidebar-mini">
 <div class="wrapper">
 
-	<!-- Main Header -->
-	@include('layouts.header')
+    <!-- Main Header -->
+    @include('layouts.header')
 
-	<!-- Left side column. contains the logo and sidebar -->
+    <!-- Left side column. contains the logo and sidebar -->
     @include('layouts.sidebar')
 
-	<!-- Content Wrapper. Contains page content -->
-	<div class="content-wrapper">
-		<!-- Content Header (Page header) -->
-		<section class="content-header">
-			<h1>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
                 {{ $page_title or "Page Title" }}
-				<small>{{ $page_description or null }}</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-				<li class="active">Here</li>
-			</ol>
-		</section>
+                <small>{{ $page_description or null }}</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+                <li class="active">Here</li>
+            </ol>
+        </section>
 
-		<!-- Main content -->
-		<section class="content">
+        <!-- Main content -->
+        <section class="content">
             @yield('content')
-		</section><!-- /.content -->
-	</div><!-- /.content-wrapper -->
+        </section><!-- /.content -->
+    </div><!-- /.content-wrapper -->
 
-	<!-- Main Footer -->
-	@include('layouts.footer')
+    <!-- Main Footer -->
+    @include('layouts.footer')
 
-	<!-- Control Sidebar -->
-	@include('layouts.control')
+    <!-- Control Sidebar -->
+    @include('layouts.control')
 </div><!-- ./wrapper -->
 
 <!-- REQUIRED JS SCRIPTS -->
