@@ -38,6 +38,14 @@ The steps that I took were:
 
     php artisan vendor:publish --force
 
+### Configure DDPro Admin
+
+Configuring DDPro Admin is mostly done by editing the configuration file in config/administrator.php, which
+is published by running `php artisan vendor:publish` above.  The only changes that I made were:
+
+* Change the permission() function to return true.  This means that the example application needs no logins.
+* Create the menu array with the list of model configuration files that are configured in config/administrator.
+
 ### Create Database Configuration
 
     cp .env.example .env
@@ -56,4 +64,3 @@ to configure the DDPro Admin model configuration.  See [the instructions here](h
 ### Deployment
 
 I created a [simple deployment script and files in the deploy directory](/deploy/README.md) which can be used to deploy the application including all of the dependencies.
-
