@@ -40,7 +40,20 @@ The steps that I took were:
 
 ### Create Database Configuration
 
-### Create Environment Files
+    cp .env.example .env
 
-### Build Database
+Then edit the .env file to contain the correct database parameters, etc.
+
+### Create DDPro Admin Configuration Files
+
+There is a basic data model created by the migration files in database/migrations, and the corresponding
+model files in app/Models.
+
+In addition to these, the files in config/administrator and config/administrator/settings have been created
+to configure the DDPro Admin model configuration.  See [the instructions here](https://github.com/ddpro/admin/blob/master/docs/model-configuration.md) for more details on how to do that including the structure and contents of a model configuration file.
+
+
+### Deployment
+
+I created a [simple deployment script and files in the deploy directory](/deploy/README.md) which can be used to deploy the application including all of the dependencies.
 

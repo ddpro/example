@@ -2,11 +2,14 @@
 
 #
 # software deployment script -- run via jenkins or from the command line
+# MIT License
+# (c) Del 2015 http://www.babel.com.au/
+# No Rights Reserved
 #
 # Dependencies:
 #
 # * A successful minimal + base install must have been run on the target server.
-# * Either apache or 
+# * Either apache or nginx.
 # * php must be installed on the target server
 # * composer must be installed on the target server and available in the default search path
 # * root access must be available to the target server.  We assume that there is a ssh
