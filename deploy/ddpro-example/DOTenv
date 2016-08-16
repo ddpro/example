@@ -2,8 +2,6 @@ APP_ENV=test
 APP_DEBUG=true
 APP_KEY=c5986dec88093f457256be195cf9d055
 
-DBA_PASSWORD=dbapass
-
 DB_HOST=localhost
 DB_DATABASE=ddpro
 DB_USERNAME=ddpro
