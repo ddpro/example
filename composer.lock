@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "79cb039ff3856569f89da359980be34262e55544"
+                "reference": "2d1d145f7d742c1dc067d32852e5753bae826c6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/79cb039ff3856569f89da359980be34262e55544",
-                "reference": "79cb039ff3856569f89da359980be34262e55544",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/2d1d145f7d742c1dc067d32852e5753bae826c6a",
+                "reference": "2d1d145f7d742c1dc067d32852e5753bae826c6a",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-16 02:13:38"
+            "time": "2016-08-16 04:06:58"
         },
         {
             "name": "delatbabel/applog",
