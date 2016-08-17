@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "69eba9efd350640dbbb8e031b952723d0936fe80"
+                "reference": "574aa01bfd73c5f23c557ea5a8303eeb8a007c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/69eba9efd350640dbbb8e031b952723d0936fe80",
-                "reference": "69eba9efd350640dbbb8e031b952723d0936fe80",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/574aa01bfd73c5f23c557ea5a8303eeb8a007c39",
+                "reference": "574aa01bfd73c5f23c557ea5a8303eeb8a007c39",
                 "shasum": ""
             },
             "require": {
@@ -319,14 +319,14 @@
             "description": "DDPro Administrator Panel",
             "homepage": "https://github.com/ddpro/admin",
             "keywords": [
+                "AdminLTE",
                 "admin",
                 "administrator",
-                "cms",
                 "database",
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-16 06:20:55"
+            "time": "2016-08-17 03:55:04"
         },
         {
             "name": "delatbabel/applog",

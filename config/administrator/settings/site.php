@@ -54,7 +54,7 @@ return array(
     /**
      * This is run prior to saving the JSON form data
      *
-     * @type function
+     * @type Callable
      * @param array     $data
      *
      * @return string (on error) / void (otherwise)
