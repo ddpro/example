@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58db2fd41f301bfc41140749231e86b8",
+    "hash": "7e646f40f0895ece505ecf2840d581c2",
     "content-hash": "62be41ae2084c024415d88f7bf56e6ba",
     "packages": [
         {
@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "574aa01bfd73c5f23c557ea5a8303eeb8a007c39"
+                "reference": "638e89ede0dfe6bc0ab895aadb6c699e2b645839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/574aa01bfd73c5f23c557ea5a8303eeb8a007c39",
-                "reference": "574aa01bfd73c5f23c557ea5a8303eeb8a007c39",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/638e89ede0dfe6bc0ab895aadb6c699e2b645839",
+                "reference": "638e89ede0dfe6bc0ab895aadb6c699e2b645839",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-17 03:55:04"
+            "time": "2016-08-17 04:11:13"
         },
         {
             "name": "delatbabel/applog",
