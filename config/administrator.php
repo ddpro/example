@@ -96,6 +96,7 @@ return array(
      */
     'menu' => array(
         'Film DB Sample'    => array('actors', 'boxoffice', 'directors', 'films', 'theaters'),
+        'Site Config'       => array('websites', 'configs'),
         'Website Pages'     => array('pages', 'objects'),
     ),
 
