@@ -94,7 +94,10 @@ return array(
      *      'Analytics' => array('E-Commerce' => 'page.ecommerce.analytics'),
      *  )
      */
-    'menu' => array('actors', 'boxoffice', 'directors', 'films', 'theaters'),
+    'menu' => array(
+        'Film DB Sample'    => array('actors', 'boxoffice', 'directors', 'films', 'theaters'),
+        'Website Pages'     => array('pages', 'objects'),
+    ),
 
     /**
      * The permission option is the highest-level authentication check that lets you define a closure that should return true if the current user
