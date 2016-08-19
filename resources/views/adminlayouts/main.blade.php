@@ -4,21 +4,6 @@
     <meta charset="UTF-8">
     <title>{{ config('administrator.title') }}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- Bootstrap 3.3.4 -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/admin-lte/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <!-- Font Awesome Icons -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
-    <!-- Ionicons -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/Ionicons/css/ionicons.min.css') }}" rel="stylesheet" type="text/css" />
-    <!-- Theme style -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/admin-lte/dist/css/AdminLTE.min.css') }}" rel="stylesheet" type="text/css" />
-    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
-          page. However, you can choose any other skin. Make sure you
-          apply the skin class to the body tag so the changes take effect.
-    -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/admin-lte/dist/css/skins/skin-blue.min.css') }}" rel="stylesheet" type="text/css" />
-    <!-- iCheck -->
-    <link href="{{ asset('packages/ddpro/admin/bower_components/admin-lte/plugins/iCheck/square/blue.css') }}" rel="stylesheet" type="text/css" />
 
 {{-- I have removed these for IE8 support because I don't really believe that anyone
      who is going to be doing site admin is ever going to use IE8. By all means feel
@@ -34,7 +19,6 @@
 
 {{-- This is where the CSS files for DDPro Admin get inserted.  These get created in the
      setViewComposers() function in AdminServiceProvider --}}
-{{--  TODO -- move all of the above CSS assets into AdminServiceProvider --}}
 @foreach ($css as $url)
     <link href="{{$url}}" media="all" type="text/css" rel="stylesheet">
 @endforeach
@@ -78,17 +62,28 @@ desired effect
     @include('adminlayouts.control')
 </div><!-- ./wrapper -->
 
-{{--  REQUIRED JS SCRIPTS -- see AdminServiceProvider --}}
+{{-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. Slimscroll is required when using the
+     fixed layout. --}}
 
 {{-- This is where the JS files for DDPro Admin get inserted.  These get created in the
      setViewComposers() function in AdminServiceProvider --}}
 @foreach ($js as $url)
     <script src="{{$url}}"></script>
 @endforeach
-
-{{-- Optionally, you can add Slimscroll and FastClick plugins.
-     Both of these plugins are recommended to enhance the
-     user experience. Slimscroll is required when using the
-     fixed layout. --}}
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
 </body>
 </html>
