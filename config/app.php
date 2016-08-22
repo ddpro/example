@@ -144,8 +144,12 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        DDPro\Admin\AdminServiceProvider::class,
 
+        // Imported package service providers
+        DDPro\Admin\AdminServiceProvider::class,
+        Delatbabel\Keylists\KeylistsServiceProvider::class,
+        Delatbabel\SiteConfig\SiteConfigServiceProvider::class,
+        Delatbabel\Contacts\ContactsServiceProvider::class,
     ],
 
     /*
