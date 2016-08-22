@@ -69,7 +69,7 @@ return array(
         ),
         'content' => array(
             'title' => 'Content',
-            'type' => 'textarea',
+            'type' => 'wysiwyg',
         ),
         'websites' => array(
             'title' => 'Websites',
