@@ -686,12 +686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/nestedcategories.git",
-                "reference": "b21c854203e7e47eb390929f4cec8dff24e6753d"
+                "reference": "43f91c28a8354110fa0210a61413073e32dcaf3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/b21c854203e7e47eb390929f4cec8dff24e6753d",
-                "reference": "b21c854203e7e47eb390929f4cec8dff24e6753d",
+                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/43f91c28a8354110fa0210a61413073e32dcaf3c",
+                "reference": "43f91c28a8354110fa0210a61413073e32dcaf3c",
                 "shasum": ""
             },
             "require": {
@@ -733,7 +733,7 @@
                 "laravel",
                 "laravel5"
             ],
-            "time": "2016-08-24 04:39:45"
+            "time": "2016-08-24 04:46:29"
         },
         {
             "name": "delatbabel/site-config",
