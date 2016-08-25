@@ -686,12 +686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/nestedcategories.git",
-                "reference": "43f91c28a8354110fa0210a61413073e32dcaf3c"
+                "reference": "273af7708d9189cd15c324b8fc2e198679a3a695"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/43f91c28a8354110fa0210a61413073e32dcaf3c",
-                "reference": "43f91c28a8354110fa0210a61413073e32dcaf3c",
+                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/273af7708d9189cd15c324b8fc2e198679a3a695",
+                "reference": "273af7708d9189cd15c324b8fc2e198679a3a695",
                 "shasum": ""
             },
             "require": {
@@ -733,7 +733,7 @@
                 "laravel",
                 "laravel5"
             ],
-            "time": "2016-08-24 04:46:29"
+            "time": "2016-08-25 07:48:46"
         },
         {
             "name": "delatbabel/site-config",
@@ -790,17 +790,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "800aabbdf7fb94653f6abb9e4ad68e4a869f470a"
+                "reference": "8889e8654a23ad05d22da6574746763dddbd99b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/800aabbdf7fb94653f6abb9e4ad68e4a869f470a",
-                "reference": "800aabbdf7fb94653f6abb9e4ad68e4a869f470a",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/8889e8654a23ad05d22da6574746763dddbd99b9",
+                "reference": "8889e8654a23ad05d22da6574746763dddbd99b9",
                 "shasum": ""
             },
             "require": {
                 "delatbabel/applog": "~1.0",
                 "delatbabel/fluents": "~1.0",
+                "delatbabel/nestedcategories": "dev-master",
                 "delatbabel/site-config": "dev-master",
                 "illuminate/support": "5.1.*",
                 "illuminate/view": "5.1.*",
@@ -830,7 +831,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-22 10:47:41"
+            "time": "2016-08-25 08:06:38"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4218,16 +4219,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19"
+                "reference": "8f444748e174e49d5bd2bd7a9bebbf44edbb55fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/4e83390f64e7ce04fcaec2ce95cd72823b431d19",
-                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/8f444748e174e49d5bd2bd7a9bebbf44edbb55fb",
+                "reference": "8f444748e174e49d5bd2bd7a9bebbf44edbb55fb",
                 "shasum": ""
             },
             "require": {
@@ -4273,7 +4274,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-08-17 09:33:51"
+            "time": "2016-08-24 16:58:26"
         },
         {
             "name": "psr/http-message",
