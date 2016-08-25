@@ -20,6 +20,20 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\VerifyCsrfToken::class,
     ];
 
+    protected function bootstrappers()
+    {
+        $bootstrappers = parent::bootstrappers();
+
+        // Swap out the default Laravel ConfigureLogging class with our own.
+        foreach ($bootstrappers as $key => $value) {
+            if ($value == 'Illuminate\Foundation\Bootstrap\ConfigureLogging') {
+                $bootstrappers[$key] = 'Delatbabel\Applog\Bootstrap\ConfigureLogging';
+            }
+        }
+
+        return $bootstrappers;
+    }
+
     /**
      * The application's route middleware.
      *

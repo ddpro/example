@@ -150,6 +150,7 @@ return [
         Delatbabel\Keylists\KeylistsServiceProvider::class,
         Delatbabel\SiteConfig\SiteConfigServiceProvider::class,
         Delatbabel\Contacts\ContactsServiceProvider::class,
+        Delatbabel\Applog\DebugServiceProvider::class,
     ],
 
     /*
