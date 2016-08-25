@@ -545,12 +545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/contacts.git",
-                "reference": "e7317281d35dbfdaa952fb6b264fd383ac5dd24f"
+                "reference": "4a85bb62335adceb7a16ef3a785cb8c497ac13bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/e7317281d35dbfdaa952fb6b264fd383ac5dd24f",
-                "reference": "e7317281d35dbfdaa952fb6b264fd383ac5dd24f",
+                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/4a85bb62335adceb7a16ef3a785cb8c497ac13bf",
+                "reference": "4a85bb62335adceb7a16ef3a785cb8c497ac13bf",
                 "shasum": ""
             },
             "require": {
@@ -587,7 +587,7 @@
                 "crm",
                 "laravel"
             ],
-            "time": "2016-08-24 04:40:41"
+            "time": "2016-08-25 08:35:01"
         },
         {
             "name": "delatbabel/fluents",
