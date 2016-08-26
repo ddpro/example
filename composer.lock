@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "5d1a7db57839557c65da80d6c0ff6026817dfa0a"
+                "reference": "9a45e2b32c5d7d462d4d91f73f3dba23fa79f466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/5d1a7db57839557c65da80d6c0ff6026817dfa0a",
-                "reference": "5d1a7db57839557c65da80d6c0ff6026817dfa0a",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/9a45e2b32c5d7d462d4d91f73f3dba23fa79f466",
+                "reference": "9a45e2b32c5d7d462d4d91f73f3dba23fa79f466",
                 "shasum": ""
             },
             "require": {
@@ -452,20 +452,20 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-25 12:15:44"
+            "time": "2016-08-26 09:18:15"
         },
         {
             "name": "delatbabel/applog",
-            "version": "v1.5",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/applog.git",
-                "reference": "e00ad29e3edbfb0349d2c914443203a184643e14"
+                "reference": "fa450aa37b4405eb4f11ab84ea464aa7012027d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/applog/zipball/e00ad29e3edbfb0349d2c914443203a184643e14",
-                "reference": "e00ad29e3edbfb0349d2c914443203a184643e14",
+                "url": "https://api.github.com/repos/delatbabel/applog/zipball/fa450aa37b4405eb4f11ab84ea464aa7012027d4",
+                "reference": "fa450aa37b4405eb4f11ab84ea464aa7012027d4",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "log"
             ],
-            "time": "2015-12-28 05:57:51"
+            "time": "2016-08-26 11:08:07"
         },
         {
             "name": "delatbabel/contacts",
