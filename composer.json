@@ -9,6 +9,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "delatbabel/contacts": "dev-master",
+        "delatbabel/elocryptfive": "dev-master",
         "delatbabel/keylists": "dev-master",
         "ddpro/admin": "dev-master"
     },

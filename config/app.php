@@ -151,6 +151,7 @@ return [
         Delatbabel\SiteConfig\SiteConfigServiceProvider::class,
         Delatbabel\Contacts\ContactsServiceProvider::class,
         Delatbabel\Applog\DebugServiceProvider::class,
+        Delatbabel\Elocrypt\ElocryptServiceProvider::class,
     ],
 
     /*
