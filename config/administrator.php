@@ -110,8 +110,7 @@ return array(
      *
      * @type closure
      */
-    'permission'=> function()
-    {
+    'permission' => function () {
         return true;
     },
 

@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "9a45e2b32c5d7d462d4d91f73f3dba23fa79f466"
+                "reference": "345e8410e6c735fea531a354227127302c1f51a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/9a45e2b32c5d7d462d4d91f73f3dba23fa79f466",
-                "reference": "9a45e2b32c5d7d462d4d91f73f3dba23fa79f466",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/345e8410e6c735fea531a354227127302c1f51a2",
+                "reference": "345e8410e6c735fea531a354227127302c1f51a2",
                 "shasum": ""
             },
             "require": {
@@ -452,20 +452,20 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-26 09:18:15"
+            "time": "2016-08-27 04:47:17"
         },
         {
             "name": "delatbabel/applog",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/applog.git",
-                "reference": "fa450aa37b4405eb4f11ab84ea464aa7012027d4"
+                "reference": "63d100bbe7c1f72615ab3905ab15fdbe704b96d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/applog/zipball/fa450aa37b4405eb4f11ab84ea464aa7012027d4",
-                "reference": "fa450aa37b4405eb4f11ab84ea464aa7012027d4",
+                "url": "https://api.github.com/repos/delatbabel/applog/zipball/63d100bbe7c1f72615ab3905ab15fdbe704b96d4",
+                "reference": "63d100bbe7c1f72615ab3905ab15fdbe704b96d4",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "log"
             ],
-            "time": "2016-08-26 11:08:07"
+            "time": "2016-08-26 12:21:25"
         },
         {
             "name": "delatbabel/contacts",
@@ -503,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/contacts.git",
-                "reference": "dd03ff4bc0aa139fafd33f313f37780d9d14e348"
+                "reference": "7e02959a627ce7ff36a92b97f5ca24da93deba0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/dd03ff4bc0aa139fafd33f313f37780d9d14e348",
-                "reference": "dd03ff4bc0aa139fafd33f313f37780d9d14e348",
+                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/7e02959a627ce7ff36a92b97f5ca24da93deba0d",
+                "reference": "7e02959a627ce7ff36a92b97f5ca24da93deba0d",
                 "shasum": ""
             },
             "require": {
@@ -545,7 +545,7 @@
                 "crm",
                 "laravel"
             ],
-            "time": "2016-08-26 09:06:52"
+            "time": "2016-08-27 04:59:50"
         },
         {
             "name": "delatbabel/fluents",
@@ -598,12 +598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/keylists.git",
-                "reference": "11c460a43e60d3408d3cf0a9b8597e5ad74f3224"
+                "reference": "667a7e62acf7964c51546a0f706d4ea9570a9ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/keylists/zipball/11c460a43e60d3408d3cf0a9b8597e5ad74f3224",
-                "reference": "11c460a43e60d3408d3cf0a9b8597e5ad74f3224",
+                "url": "https://api.github.com/repos/delatbabel/keylists/zipball/667a7e62acf7964c51546a0f706d4ea9570a9ed9",
+                "reference": "667a7e62acf7964c51546a0f706d4ea9570a9ed9",
                 "shasum": ""
             },
             "require": {
@@ -636,7 +636,7 @@
                 "laravel",
                 "value"
             ],
-            "time": "2016-08-22 11:24:03"
+            "time": "2016-08-27 04:04:26"
         },
         {
             "name": "delatbabel/nestedcategories",
@@ -644,12 +644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/nestedcategories.git",
-                "reference": "273af7708d9189cd15c324b8fc2e198679a3a695"
+                "reference": "11a59365e1e513469759e606dcef54ef15996260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/273af7708d9189cd15c324b8fc2e198679a3a695",
-                "reference": "273af7708d9189cd15c324b8fc2e198679a3a695",
+                "url": "https://api.github.com/repos/delatbabel/nestedcategories/zipball/11a59365e1e513469759e606dcef54ef15996260",
+                "reference": "11a59365e1e513469759e606dcef54ef15996260",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +691,7 @@
                 "laravel",
                 "laravel5"
             ],
-            "time": "2016-08-25 07:48:46"
+            "time": "2016-08-27 05:02:14"
         },
         {
             "name": "delatbabel/site-config",
@@ -699,12 +699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/site-config.git",
-                "reference": "eec37b0f13cb4e2b74d43c92c49fa18c6c0f2d05"
+                "reference": "e0ca96f98fc03c1df6e472c7afc18eac71490ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/site-config/zipball/eec37b0f13cb4e2b74d43c92c49fa18c6c0f2d05",
-                "reference": "eec37b0f13cb4e2b74d43c92c49fa18c6c0f2d05",
+                "url": "https://api.github.com/repos/delatbabel/site-config/zipball/e0ca96f98fc03c1df6e472c7afc18eac71490ed4",
+                "reference": "e0ca96f98fc03c1df6e472c7afc18eac71490ed4",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 "laravel",
                 "site"
             ],
-            "time": "2016-08-18 04:48:29"
+            "time": "2016-08-27 04:06:55"
         },
         {
             "name": "delatbabel/viewpages",
@@ -748,12 +748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "8889e8654a23ad05d22da6574746763dddbd99b9"
+                "reference": "f37fad6799dc72f6eadcb30049e9a6585d76cddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/8889e8654a23ad05d22da6574746763dddbd99b9",
-                "reference": "8889e8654a23ad05d22da6574746763dddbd99b9",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/f37fad6799dc72f6eadcb30049e9a6585d76cddd",
+                "reference": "f37fad6799dc72f6eadcb30049e9a6585d76cddd",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +789,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-25 08:06:38"
+            "time": "2016-08-27 05:09:07"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1191,16 +1191,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.42",
+            "version": "v5.1.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "876189b5ce03d40f0d9380c06fb61a3d0743b19c"
+                "reference": "db580b5b073ea3f1e095b30a75ae5d6394eb8e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/876189b5ce03d40f0d9380c06fb61a3d0743b19c",
-                "reference": "876189b5ce03d40f0d9380c06fb61a3d0743b19c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/db580b5b073ea3f1e095b30a75ae5d6394eb8e51",
+                "reference": "db580b5b073ea3f1e095b30a75ae5d6394eb8e51",
                 "shasum": ""
             },
             "require": {
@@ -1316,7 +1316,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-23 13:02:52"
+            "time": "2016-08-26 11:44:21"
         },
         {
             "name": "league/flysystem",
