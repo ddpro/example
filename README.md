@@ -1,8 +1,6 @@
 # DDPro Example Application
 
 [![StyleCI](https://styleci.io/repos/65351271/shield)](https://styleci.io/repos/65351271)
-[![Latest Stable Version](https://poser.pugx.org/ddpro/example/version.png)](https://packagist.org/packages/ddpro/example)
-[![Total Downloads](https://poser.pugx.org/ddpro/example/d/total.png)](https://packagist.org/packages/ddpro/example)
 
 This is an example application using the DDPro packages.  The packages used include:
 
