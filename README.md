@@ -107,9 +107,9 @@ The phpunit.xml file is not used.
 
 The important things to configure in the files are:
 
-* codeception.yml – change the whitelist of files to include for code coverage in coverage: whitelist: include. This should include all of your source code files but not your views, database migrations, test scripts, etc.
-* acceptance.suite.yml – this is mostly commented out. To build an acceptance suite means setting up an internal browser and a remote URL. See the codeception documentation for more details.
-* functional.suite.yml – ensure that the Laravel5 module is enabled, and you may want the REST module as well for API tests (although these could be run from a separate API suite).
+* `codeception.yml` – change the whitelist of files to include for code coverage in coverage: whitelist: include. This should include all of your source code files but not your views, database migrations, test scripts, etc.
+* `acceptance.suite.yml` – this is mostly commented out. To build an acceptance suite means setting up an internal browser and a remote URL. See the codeception documentation for more details.
+* `functional.suite.yml` – ensure that the Laravel5 module is enabled, and you may want the REST module as well for API tests (although these could be run from a separate API suite).
 
 ### Adding New Test Suites
 
