@@ -6,14 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class BoxOffice extends Model
 {
-
     protected $table = 'box_office';
 
-    public static $rules = array(
+    public static $rules = [
         'revenue'    => 'required|numeric',
         'film_id'    => 'required|integer',
         'theater_id' => 'required|integer',
-    );
+    ];
 
     public function film()
     {

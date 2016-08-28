@@ -6,10 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Theater extends Model
 {
-
-    public static $rules = array(
+    public static $rules = [
         'name' => 'required',
-    );
+    ];
 
     public function films()
     {

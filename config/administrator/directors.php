@@ -4,7 +4,7 @@
  * Directors model config
  */
 
-return array(
+return [
 
     'title' => 'Directors',
 
@@ -15,57 +15,57 @@ return array(
     /**
      * The display columns
      */
-    'columns' => array(
-        'name' => array(
+    'columns' => [
+        'name' => [
             'title' => 'Name',
-        ),
-        'formatted_salary' => array(
-            'title' => 'Salary',
+        ],
+        'formatted_salary' => [
+            'title'      => 'Salary',
             'sort_field' => 'salary'
-        ),
-        'num_films' => array(
-            'title' => '# films',
+        ],
+        'num_films' => [
+            'title'    => '# films',
             'relation' => 'films',
-            'select' => 'COUNT((:table).id)',
-        ),
+            'select'   => 'COUNT((:table).id)',
+        ],
         'created_at',
-    ),
+    ],
 
     /**
      * The filter set
      */
-    'filters' => array(
+    'filters' => [
         'id',
         'first_name',
         'last_name',
-        'salary' => array(
-            'type' => 'number',
-            'symbol' => '$',
+        'salary' => [
+            'type'     => 'number',
+            'symbol'   => '$',
             'decimals' => 2,
-        ),
-        'created_at' => array(
+        ],
+        'created_at' => [
             'type' => 'datetime'
-        ),
-    ),
+        ],
+    ],
 
     /**
      * The editable fields
      */
-    'edit_fields' => array(
-        'first_name' => array(
+    'edit_fields' => [
+        'first_name' => [
             'title' => 'First Name',
-            'type' => 'text',
-        ),
-        'last_name' => array(
+            'type'  => 'text',
+        ],
+        'last_name' => [
             'title' => 'Last Name',
-            'type' => 'text',
-        ),
-        'salary' => array(
-            'title' => 'Salary',
-            'type' => 'number',
-            'symbol' => '$',
+            'type'  => 'text',
+        ],
+        'salary' => [
+            'title'    => 'Salary',
+            'type'     => 'number',
+            'symbol'   => '$',
             'decimals' => 2
-        ),
-    ),
+        ],
+    ],
 
-);
+];

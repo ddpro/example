@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /**
      * Package URI
@@ -29,7 +29,7 @@ return array(
      *
      *  @type array
      */
-    'middleware' => array(),
+    'middleware' => [],
 
     /**
      * Page title
@@ -94,12 +94,12 @@ return array(
      *      'Analytics' => array('E-Commerce' => 'page.ecommerce.analytics'),
      *  )
      */
-    'menu' => array(
-        'Film DB Sample'    => array('actors', 'boxoffice', 'directors', 'films', 'theaters'),
-        'Contacts'          => array('companies', 'contacts'),
-        'Site Config'       => array('websites', 'configs', 'keytypes', 'keyvalues', 'categories', 'applog'),
-        'Website Pages'     => array('pages', 'objects'),
-    ),
+    'menu' => [
+        'Film DB Sample'    => ['actors', 'boxoffice', 'directors', 'films', 'theaters'],
+        'Contacts'          => ['companies', 'contacts'],
+        'Site Config'       => ['websites', 'configs', 'keytypes', 'keyvalues', 'categories', 'applog'],
+        'Website Pages'     => ['pages', 'objects'],
+    ],
 
     /**
      * The permission option is the highest-level authentication check that lets you define a closure that should return true if the current user
@@ -184,6 +184,6 @@ return array(
      *
      * @type array
      */
-    'locales' => array(),
+    'locales' => [],
 
-);
+];

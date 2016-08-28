@@ -2,7 +2,8 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTheaters extends Migration {
+class CreateTheaters extends Migration
+{
 
     /**
      * Make changes to the database.
@@ -11,8 +12,7 @@ class CreateTheaters extends Migration {
      */
     public function up()
     {
-        Schema::create('theaters', function($table)
-        {
+        Schema::create('theaters', function ($table) {
             $table->increments('id');
             $table->text('name');
             $table->timestamps();
@@ -28,5 +28,4 @@ class CreateTheaters extends Migration {
     {
         Schema::drop('theaters');
     }
-
 }
