@@ -2,7 +2,8 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateDirectorsTable extends Migration {
+class CreateDirectorsTable extends Migration
+{
 
     /**
      * Make changes to the database.
@@ -11,8 +12,7 @@ class CreateDirectorsTable extends Migration {
      */
     public function up()
     {
-        Schema::create('directors', function($table)
-        {
+        Schema::create('directors', function ($table) {
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
@@ -30,5 +30,4 @@ class CreateDirectorsTable extends Migration {
     {
         Schema::drop('directors');
     }
-
 }

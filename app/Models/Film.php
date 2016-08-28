@@ -6,12 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Film extends Model
 {
-
-    public static $rules = array(
+    public static $rules = [
         'name'         => 'required',
         'release_date' => 'required',
         'director_id'  => 'required',
-    );
+    ];
 
     public function director()
     {

@@ -4,7 +4,7 @@
  * Films model config
  */
 
-return array(
+return [
 
     'title' => 'Films',
 
@@ -15,81 +15,81 @@ return array(
     /**
      * The display columns
      */
-    'columns' => array(
+    'columns' => [
         'id',
         'name',
-        'release_date' => array(
+        'release_date' => [
             'title' => 'release date'
-        ),
-        'director_name' => array(
-            'title' => 'Director Name',
+        ],
+        'director_name' => [
+            'title'        => 'Director Name',
             'relationship' => 'director',
-            'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)"
-        ),
-        'num_actors' => array(
-            'title' => '# Actors',
+            'select'       => "CONCAT((:table).first_name, ' ', (:table).last_name)"
+        ],
+        'num_actors' => [
+            'title'        => '# Actors',
             'relationship' => 'actors',
-            'select' => "COUNT((:table).id)"
-        ),
-        'box_office' => array(
-            'title' => 'Box Office',
+            'select'       => "COUNT((:table).id)"
+        ],
+        'box_office' => [
+            'title'        => 'Box Office',
             'relationship' => 'boxOffice',
-            'select' => "CONCAT('$', FORMAT(SUM((:table).revenue), 2))"
-        ),
-    ),
+            'select'       => "CONCAT('$', FORMAT(SUM((:table).revenue), 2))"
+        ],
+    ],
 
     /**
      * The filter set
      */
-    'filters' => array(
+    'filters' => [
         'id',
         'name',
-        'release_date' => array(
-            'title' => 'Release Date',
-            'type' => 'date',
+        'release_date' => [
+            'title'       => 'Release Date',
+            'type'        => 'date',
             'date_format' => 'yy-mm-dd',
-        ),
-        'director' => array(
-            'title' => 'Director',
-            'type' => 'relationship',
-            'name_field' => 'name',
+        ],
+        'director' => [
+            'title'              => 'Director',
+            'type'               => 'relationship',
+            'name_field'         => 'name',
             'options_sort_field' => "CONCAT(first_name, ' ' , last_name)",
-        ),
-        'actors' => array(
-            'title' => 'Actors',
-            'type' => 'relationship',
-            'name_field' => 'name',
+        ],
+        'actors' => [
+            'title'              => 'Actors',
+            'type'               => 'relationship',
+            'name_field'         => 'name',
             'options_sort_field' => "CONCAT(first_name, ' ' , last_name)",
-        ),
-    ),
+        ],
+    ],
 
     /**
      * The editable fields
      */
-    'edit_fields' => array(
+    'edit_fields' => [
         'name',
-        'release_date' => array(
-            'title' => 'Release Date',
-            'type' => 'date',
+        'release_date' => [
+            'title'       => 'Release Date',
+            'type'        => 'date',
             'date_format' => 'yy-mm-dd',
-        ),
-        'director' => array(
-            'title' => 'Director',
-            'type' => 'relationship',
-            'name_field' => 'name',
+        ],
+        'director' => [
+            'title'              => 'Director',
+            'type'               => 'relationship',
+            'name_field'         => 'name',
             'options_sort_field' => "CONCAT(first_name, ' ' , last_name)",
-        ),
-        'actors' => array(
-            'title' => 'Actors',
-            'type' => 'relationship',
-            'name_field' => 'name',
+        ],
+        'actors' => [
+            'title'              => 'Actors',
+            'type'               => 'relationship',
+            'name_field'         => 'name',
             'options_sort_field' => "CONCAT(first_name, ' ' , last_name)",
-        ),
-        'theaters' => array(
-            'title' => 'Theater',
-            'type' => 'relationship',
+        ],
+        'theaters' => [
+            'title'      => 'Theater',
+            'type'       => 'relationship',
             'name_field' => 'name',
-        ),
-    ),
+        ],
+    ],
 
-);
+];

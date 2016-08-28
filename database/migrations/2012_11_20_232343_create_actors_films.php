@@ -2,7 +2,8 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateActorsFilms extends Migration {
+class CreateActorsFilms extends Migration
+{
 
     /**
      * Make changes to the database.
@@ -11,8 +12,7 @@ class CreateActorsFilms extends Migration {
      */
     public function up()
     {
-        Schema::create('actor_film', function($table)
-        {
+        Schema::create('actor_film', function ($table) {
             $table->increments('id');
             $table->integer('actor_id')->unsigned();
             $table->integer('film_id')->unsigned();
@@ -29,5 +29,4 @@ class CreateActorsFilms extends Migration {
     {
         Schema::drop('actor_film');
     }
-
 }

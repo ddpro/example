@@ -2,7 +2,8 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBoxOffice extends Migration {
+class CreateBoxOffice extends Migration
+{
 
     /**
      * Make changes to the database.
@@ -11,8 +12,7 @@ class CreateBoxOffice extends Migration {
      */
     public function up()
     {
-        Schema::create('box_office', function($table)
-        {
+        Schema::create('box_office', function ($table) {
             $table->increments('id');
             $table->decimal('revenue', 10, 2);
             $table->integer('film_id')->unsigned();
@@ -30,5 +30,4 @@ class CreateBoxOffice extends Migration {
     {
         Schema::drop('box_office');
     }
-
 }

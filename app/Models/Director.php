@@ -6,14 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Director extends Model
 {
+    protected $with = ['films'];
 
-    protected $with = array('films');
-
-    public static $rules = array(
+    public static $rules = [
         'first_name' => 'required',
         'last_name'  => 'required',
         'salary'     => 'required',
-    );
+    ];
 
     public function films()
     {

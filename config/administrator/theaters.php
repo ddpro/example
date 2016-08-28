@@ -4,7 +4,7 @@
  * Directors model config
  */
 
-return array(
+return [
 
     'title' => 'Theaters',
 
@@ -15,49 +15,49 @@ return array(
     /**
      * The display columns
      */
-    'columns' => array(
+    'columns' => [
         'id',
-        'name' => array(
+        'name' => [
             'title' => 'Name',
-        ),
-        'num_films' => array(
-            'title' => '# films',
+        ],
+        'num_films' => [
+            'title'        => '# films',
             'relationship' => 'films',
-            'select' => 'COUNT((:table).id)',
-        ),
-        'box_office' => array(
-            'title' => 'Box Office',
+            'select'       => 'COUNT((:table).id)',
+        ],
+        'box_office' => [
+            'title'        => 'Box Office',
             'relationship' => 'boxOffice',
-            'select' => "CONCAT('$', FORMAT(SUM((:table).revenue), 2))"
-        ),
-    ),
+            'select'       => "CONCAT('$', FORMAT(SUM((:table).revenue), 2))"
+        ],
+    ],
 
     /**
      * The filter set
      */
-    'filters' => array(
+    'filters' => [
         'id',
         'name',
-        'films' => array(
-            'title' => 'Films',
-            'type' => 'relationship',
+        'films' => [
+            'title'      => 'Films',
+            'type'       => 'relationship',
             'name_field' => 'name',
-        ),
-    ),
+        ],
+    ],
 
     /**
      * The editable fields
      */
-    'edit_fields' => array(
-        'name' => array(
+    'edit_fields' => [
+        'name' => [
             'title' => 'Name',
-            'type' => 'text',
-        ),
-        'films' => array(
-            'title' => 'Films',
-            'type' => 'relationship',
+            'type'  => 'text',
+        ],
+        'films' => [
+            'title'      => 'Films',
+            'type'       => 'relationship',
             'name_field' => 'name',
-        ),
-    ),
+        ],
+    ],
 
-);
+];

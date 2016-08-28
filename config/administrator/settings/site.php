@@ -4,7 +4,7 @@
  * The main site settings page
  */
 
-return array(
+return [
 
     /**
      * Settings page title
@@ -18,38 +18,38 @@ return array(
      *
      * @type array
      */
-    'edit_fields' => array(
-        'site_name' => array(
+    'edit_fields' => [
+        'site_name' => [
             'title' => 'Site Name',
-            'type' => 'text',
+            'type'  => 'text',
             'limit' => 50,
-        ),
-        'page_cache_lifetime' => array(
+        ],
+        'page_cache_lifetime' => [
             'title' => 'Page Cache Lifetime (in minutes)',
-            'type' => 'number',
-        ),
-        'logo' => array(
-            'title' => 'Image (200 x 150)',
-            'type' => 'image',
-            'naming' => 'random',
-            'location' => public_path(),
+            'type'  => 'number',
+        ],
+        'logo' => [
+            'title'      => 'Image (200 x 150)',
+            'type'       => 'image',
+            'naming'     => 'random',
+            'location'   => public_path(),
             'size_limit' => 2,
-            'sizes' => array(
-                array(200, 150, 'crop', public_path() . '/resize/', 100),
-            )
-        ),
-    ),
+            'sizes'      => [
+                [200, 150, 'crop', public_path() . '/resize/', 100],
+            ]
+        ],
+    ],
 
     /**
      * The validation rules for the form, based on the Laravel validation class
      *
      * @type array
      */
-    'rules' => array(
-        'site_name' => 'required|max:50',
+    'rules' => [
+        'site_name'           => 'required|max:50',
         'page_cache_lifetime' => 'required|integer',
-        'logo' => 'required',
-    ),
+        'logo'                => 'required',
+    ],
 
     /**
      * This is run prior to saving the JSON form data
@@ -59,8 +59,7 @@ return array(
      *
      * @return string (on error) / void (otherwise)
      */
-    'before_save' => function(&$data)
-    {
+    'before_save' => function (&$data) {
         $data['site_name'] = $data['site_name'] . ' - The Blurst Site Ever';
     },
 
@@ -70,8 +69,7 @@ return array(
      *
      * @type closure
      */
-    'permission'=> function()
-    {
+    'permission' => function () {
         return true;
         //return Auth::user()->hasRole('developer');
     },
@@ -79,22 +77,21 @@ return array(
     /**
      * This is where you can define the settings page's custom actions
      */
-    'actions' => array(
+    'actions' => [
         //Ordering an item up
-        'clear_page_cache' => array(
-            'title' => 'Clear Page Cache',
-            'messages' => array(
-                'active' => 'Clearing cache...',
+        'clear_page_cache' => [
+            'title'    => 'Clear Page Cache',
+            'messages' => [
+                'active'  => 'Clearing cache...',
                 'success' => 'Page Cache Cleared',
-                'error' => 'There was an error while clearing the page cache',
-            ),
+                'error'   => 'There was an error while clearing the page cache',
+            ],
             //the settings data is passed to the closure and saved if a truthy response is returned
-            'action' => function(&$data)
-            {
+            'action' => function (&$data) {
                 Cache::forget('pages');
 
                 return true;
             }
-        ),
-    ),
-);
+        ],
+    ],
+];

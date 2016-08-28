@@ -6,12 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Actor extends Model
 {
-
-    public static $rules = array(
+    public static $rules = [
         'first_name' => 'required',
         'last_name'  => 'required',
         'birth_date' => 'required',
-    );
+    ];
 
     public function films()
     {
