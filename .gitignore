@@ -3,6 +3,7 @@
 Homestead.yaml
 Homestead.json
 .env
+.env.testing
 .directory
 .idea/
 tests/_output/*
