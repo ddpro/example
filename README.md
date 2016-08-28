@@ -67,7 +67,7 @@ I created a [simple deployment script and files in the deploy directory](/deploy
 
 ## Codeception
 
-I have used [codeception](http://codeception.com/) as a test framework.  To create the test harness follow these steps:
+I have used [codeception](http://codeception.com/) as a test framework.  I haven't made any great effort to achieve a high level of test coverage, this is only an example application after all.  To create the test harness follow these steps:
 
 * Include the following lines in your composer.json file, and run composer update:
 
