@@ -43,7 +43,7 @@ mkdir -p tests/_output documents
 rm -f documents/coverage.xml documents/phpunit.xml
 rm -f storage/logs/*.log
 
-vendor/bin/codecept run functional,unit --xml --coverage-html --coverage-xml
+vendor/bin/codecept run api,functional,unit --xml --coverage-html --coverage-xml
 
 if [ -d tests/_output/coverage ]; then
     rm -rf documents/coverage-html

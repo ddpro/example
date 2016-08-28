@@ -1,0 +1,8 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - Laravel5
+        - REST:
+            url: /
+            depends: Laravel5
+        - \Helper\Api

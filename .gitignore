@@ -9,3 +9,4 @@ tests/_output/*
 deploy/ddpro.babel.com.au.conf
 deploy/ddpro.babel.com.au/
 deploy/root/ddpro.babel.com.au/
+/documents/
