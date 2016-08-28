@@ -28,17 +28,23 @@ The steps that I took were:
 
 * composer require
 
+```
     composer require ddpro/admin
+```
 
 * Edit the config/app.php file to include the service provider:
 
+```
     'providers' => [
         DDPro\Admin\AdminServiceProvider::class,
     ]
+```
 
 * Publish the assets, configuration, etc, from the DDPro classes:
 
+```
     php artisan vendor:publish --force
+```
 
 ### Configure DDPro Admin
 
@@ -50,7 +56,9 @@ is published by running `php artisan vendor:publish` above.  The only changes th
 
 ### Create Database Configuration
 
+```
     cp .env.example .env
+```
 
 Then edit the .env file to contain the correct database parameters, etc.
 
@@ -93,7 +101,7 @@ However for the most part you can copy the codeception suite from another projec
 
 ### Codeception Configuration
 
-The codeception configuration is stored in yml files – one at the top level (codeception.yml) and the others at the lower levels (acceptance.suite.yml, functional.suite.yml and unit.suite.yml). It's possible to add suites to codeception ([see here](http://codeception.com/docs/reference/Commands) and each suite will have its own yml configuration file.
+The codeception configuration is stored in yml files – one at the top level (codeception.yml) and the others at the lower levels (acceptance.suite.yml, functional.suite.yml and unit.suite.yml). [It's possible to add suites to codeception](http://codeception.com/docs/reference/Commands) and each suite will have its own yml configuration file.
 
 The phpunit.xml file is not used.
 
