@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "345e8410e6c735fea531a354227127302c1f51a2"
+                "reference": "37b157667544a696b9284b03ac1fb271eb3620dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/345e8410e6c735fea531a354227127302c1f51a2",
-                "reference": "345e8410e6c735fea531a354227127302c1f51a2",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/37b157667544a696b9284b03ac1fb271eb3620dd",
+                "reference": "37b157667544a696b9284b03ac1fb271eb3620dd",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-27 04:47:17"
+            "time": "2016-08-29 02:08:36"
         },
         {
             "name": "delatbabel/applog",
@@ -553,12 +553,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/elocryptfive.git",
-                "reference": "cdab1cb0cc4bb0d6b7dfb0d448056216411dda73"
+                "reference": "0b4484b513773c8d97393632a8b39fb35349595f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/elocryptfive/zipball/cdab1cb0cc4bb0d6b7dfb0d448056216411dda73",
-                "reference": "cdab1cb0cc4bb0d6b7dfb0d448056216411dda73",
+                "url": "https://api.github.com/repos/delatbabel/elocryptfive/zipball/0b4484b513773c8d97393632a8b39fb35349595f",
+                "reference": "0b4484b513773c8d97393632a8b39fb35349595f",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +608,7 @@
                 "laravel5 aes",
                 "laravel5 encryption"
             ],
-            "time": "2016-08-27 05:24:00"
+            "time": "2016-08-27 05:49:35"
         },
         {
             "name": "delatbabel/fluents",
