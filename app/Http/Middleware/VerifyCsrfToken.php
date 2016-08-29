@@ -33,6 +33,6 @@ class VerifyCsrfToken extends BaseVerifier
             return $next($request);
         }
 
-        throw new TokenMismatchException;
+        return parent::handle($request, $next);
     }
 }

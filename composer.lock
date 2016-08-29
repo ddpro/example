@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2322a48f55450953340fd4575c6fee7e",
-    "content-hash": "348c112c638f8f76387fc8d74bb85b9c",
+    "hash": "3c1aa827849c8c1e4b2138928656611a",
+    "content-hash": "f1833982591e61b76250a1a3aff59a96",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -406,16 +406,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "37b157667544a696b9284b03ac1fb271eb3620dd"
+                "reference": "a9d133d2646f9f3905a91308990071991edb4d46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/37b157667544a696b9284b03ac1fb271eb3620dd",
-                "reference": "37b157667544a696b9284b03ac1fb271eb3620dd",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/a9d133d2646f9f3905a91308990071991edb4d46",
+                "reference": "a9d133d2646f9f3905a91308990071991edb4d46",
                 "shasum": ""
             },
             "require": {
-                "delatbabel/applog": "~1.0",
+                "delatbabel/applog": "dev-master",
                 "delatbabel/fluents": "~1.0",
                 "delatbabel/viewpages": "dev-master",
                 "laravel/framework": "5.1.*",
@@ -452,20 +452,20 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-29 02:08:36"
+            "time": "2016-08-29 22:04:26"
         },
         {
             "name": "delatbabel/applog",
-            "version": "v1.5.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/applog.git",
-                "reference": "63d100bbe7c1f72615ab3905ab15fdbe704b96d4"
+                "reference": "e010f5ee33763db973fbb7348517779e220a384e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/applog/zipball/63d100bbe7c1f72615ab3905ab15fdbe704b96d4",
-                "reference": "63d100bbe7c1f72615ab3905ab15fdbe704b96d4",
+                "url": "https://api.github.com/repos/delatbabel/applog/zipball/e010f5ee33763db973fbb7348517779e220a384e",
+                "reference": "e010f5ee33763db973fbb7348517779e220a384e",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "log"
             ],
-            "time": "2016-08-26 12:21:25"
+            "time": "2016-08-29 21:56:04"
         },
         {
             "name": "delatbabel/contacts",
@@ -503,16 +503,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/contacts.git",
-                "reference": "7e02959a627ce7ff36a92b97f5ca24da93deba0d"
+                "reference": "ba12a5bb4fff57cf0e612e3e1d7473a29c30549c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/7e02959a627ce7ff36a92b97f5ca24da93deba0d",
-                "reference": "7e02959a627ce7ff36a92b97f5ca24da93deba0d",
+                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/ba12a5bb4fff57cf0e612e3e1d7473a29c30549c",
+                "reference": "ba12a5bb4fff57cf0e612e3e1d7473a29c30549c",
                 "shasum": ""
             },
             "require": {
-                "delatbabel/applog": "^1.5",
+                "delatbabel/applog": "dev-master",
                 "delatbabel/fluents": "~1.0",
                 "delatbabel/keylists": "dev-master",
                 "delatbabel/nestedcategories": "dev-master",
@@ -545,7 +545,7 @@
                 "crm",
                 "laravel"
             ],
-            "time": "2016-08-27 04:59:50"
+            "time": "2016-08-29 22:05:48"
         },
         {
             "name": "delatbabel/elocryptfive",
@@ -811,16 +811,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "f37fad6799dc72f6eadcb30049e9a6585d76cddd"
+                "reference": "7e6960fd2decb91cfd361a0c0c83bf75bd642342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/f37fad6799dc72f6eadcb30049e9a6585d76cddd",
-                "reference": "f37fad6799dc72f6eadcb30049e9a6585d76cddd",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/7e6960fd2decb91cfd361a0c0c83bf75bd642342",
+                "reference": "7e6960fd2decb91cfd361a0c0c83bf75bd642342",
                 "shasum": ""
             },
             "require": {
-                "delatbabel/applog": "~1.0",
+                "delatbabel/applog": "dev-master",
                 "delatbabel/fluents": "~1.0",
                 "delatbabel/nestedcategories": "dev-master",
                 "delatbabel/site-config": "dev-master",
@@ -852,7 +852,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-27 05:09:07"
+            "time": "2016-08-29 22:08:16"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -5020,6 +5020,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "delatbabel/applog": 20,
         "delatbabel/contacts": 20,
         "delatbabel/elocryptfive": 20,
         "delatbabel/keylists": 20,

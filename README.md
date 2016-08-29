@@ -4,7 +4,11 @@
 
 This is an example application using the DDPro packages.  The packages used include:
 
-* https://github.com/ddpro/admin
+* [DDPro Admin](https://github.com/ddpro/admin)
+* [Contacts](https://github.com/delatbabel/contacts)
+* [Keylists](https://github.com/delatbabel/keylists)
+* [Nested Categories](https://github.com/delatbabel/nestedcategories)
+* [Site Config](https://github.com/delatbabel/site-config)
 
 ## How To Build This
 
