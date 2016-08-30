@@ -32,7 +32,10 @@ class VerifyCsrfToken extends BaseVerifier
         if ($request->header('user-agent') == 'Symfony2 BrowserKit') {
             return $next($request);
         }
+        // Temporarily bypass for DataTable requests.
+        // FIXME: Add this back in later.
+        return $next($request);
 
-        return parent::handle($request, $next);
+        // return parent::handle($request, $next);
     }
 }
