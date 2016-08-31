@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "7845b86675b6f4777099393b8d1e74508004605e"
+                "reference": "98b2cc59912f160819ee0d202030ce0b8faf5f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/7845b86675b6f4777099393b8d1e74508004605e",
-                "reference": "7845b86675b6f4777099393b8d1e74508004605e",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/98b2cc59912f160819ee0d202030ce0b8faf5f71",
+                "reference": "98b2cc59912f160819ee0d202030ce0b8faf5f71",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-30 05:06:56"
+            "time": "2016-08-31 02:38:20"
         },
         {
             "name": "delatbabel/applog",
@@ -460,12 +460,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/applog.git",
-                "reference": "e010f5ee33763db973fbb7348517779e220a384e"
+                "reference": "870ba2f6b8c58b7b5908f2ecea70e2c3f6b55491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/applog/zipball/e010f5ee33763db973fbb7348517779e220a384e",
-                "reference": "e010f5ee33763db973fbb7348517779e220a384e",
+                "url": "https://api.github.com/repos/delatbabel/applog/zipball/870ba2f6b8c58b7b5908f2ecea70e2c3f6b55491",
+                "reference": "870ba2f6b8c58b7b5908f2ecea70e2c3f6b55491",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "log"
             ],
-            "time": "2016-08-29 21:56:04"
+            "time": "2016-08-31 02:34:02"
         },
         {
             "name": "delatbabel/contacts",
@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "7e6960fd2decb91cfd361a0c0c83bf75bd642342"
+                "reference": "b32b80e747ecb3e2829e4adb750fa9efd120fe53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/7e6960fd2decb91cfd361a0c0c83bf75bd642342",
-                "reference": "7e6960fd2decb91cfd361a0c0c83bf75bd642342",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/b32b80e747ecb3e2829e4adb750fa9efd120fe53",
+                "reference": "b32b80e747ecb3e2829e4adb750fa9efd120fe53",
                 "shasum": ""
             },
             "require": {
@@ -852,7 +852,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-29 22:08:16"
+            "time": "2016-08-31 02:34:50"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
