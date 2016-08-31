@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "76f08da0e1bb61b2d28078d90e35548ea09bc96b"
+                "reference": "2545c96988e91f13b63f1ec6da1579fa89642785"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/76f08da0e1bb61b2d28078d90e35548ea09bc96b",
-                "reference": "76f08da0e1bb61b2d28078d90e35548ea09bc96b",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/2545c96988e91f13b63f1ec6da1579fa89642785",
+                "reference": "2545c96988e91f13b63f1ec6da1579fa89642785",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-31 05:30:50"
+            "time": "2016-08-31 07:17:04"
         },
         {
             "name": "delatbabel/applog",
@@ -503,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/contacts.git",
-                "reference": "ba258034d67e6da1ba6a84e2f08ceebe5abbf635"
+                "reference": "9cee7198f8080d564d354ca244d655cd552582b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/ba258034d67e6da1ba6a84e2f08ceebe5abbf635",
-                "reference": "ba258034d67e6da1ba6a84e2f08ceebe5abbf635",
+                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/9cee7198f8080d564d354ca244d655cd552582b4",
+                "reference": "9cee7198f8080d564d354ca244d655cd552582b4",
                 "shasum": ""
             },
             "require": {
@@ -545,7 +545,7 @@
                 "crm",
                 "laravel"
             ],
-            "time": "2016-08-31 05:43:16"
+            "time": "2016-08-31 07:17:58"
         },
         {
             "name": "delatbabel/elocryptfive",
@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "b32b80e747ecb3e2829e4adb750fa9efd120fe53"
+                "reference": "03e63fdd443803b4cc722fc3450eb3f3199be10a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/b32b80e747ecb3e2829e4adb750fa9efd120fe53",
-                "reference": "b32b80e747ecb3e2829e4adb750fa9efd120fe53",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/03e63fdd443803b4cc722fc3450eb3f3199be10a",
+                "reference": "03e63fdd443803b4cc722fc3450eb3f3199be10a",
                 "shasum": ""
             },
             "require": {
@@ -852,7 +852,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-31 02:34:50"
+            "time": "2016-08-31 07:19:32"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
