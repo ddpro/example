@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "d23b3a346a87d6c6f40440a8daa92daf690a7468"
+                "reference": "76f08da0e1bb61b2d28078d90e35548ea09bc96b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/d23b3a346a87d6c6f40440a8daa92daf690a7468",
-                "reference": "d23b3a346a87d6c6f40440a8daa92daf690a7468",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/76f08da0e1bb61b2d28078d90e35548ea09bc96b",
+                "reference": "76f08da0e1bb61b2d28078d90e35548ea09bc96b",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-08-31 05:21:01"
+            "time": "2016-08-31 05:30:50"
         },
         {
             "name": "delatbabel/applog",
@@ -503,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/contacts.git",
-                "reference": "ba12a5bb4fff57cf0e612e3e1d7473a29c30549c"
+                "reference": "ba258034d67e6da1ba6a84e2f08ceebe5abbf635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/ba12a5bb4fff57cf0e612e3e1d7473a29c30549c",
-                "reference": "ba12a5bb4fff57cf0e612e3e1d7473a29c30549c",
+                "url": "https://api.github.com/repos/delatbabel/contacts/zipball/ba258034d67e6da1ba6a84e2f08ceebe5abbf635",
+                "reference": "ba258034d67e6da1ba6a84e2f08ceebe5abbf635",
                 "shasum": ""
             },
             "require": {
@@ -545,7 +545,7 @@
                 "crm",
                 "laravel"
             ],
-            "time": "2016-08-29 22:05:48"
+            "time": "2016-08-31 05:43:16"
         },
         {
             "name": "delatbabel/elocryptfive",
