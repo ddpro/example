@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "c3a45f7a5f68c6d61d3daa6bec237561dab9bea4"
+                "reference": "7495d20754bf170aa51dd14175b39694c3223123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/c3a45f7a5f68c6d61d3daa6bec237561dab9bea4",
-                "reference": "c3a45f7a5f68c6d61d3daa6bec237561dab9bea4",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/7495d20754bf170aa51dd14175b39694c3223123",
+                "reference": "7495d20754bf170aa51dd14175b39694c3223123",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-09-07 07:41:52"
+            "time": "2016-09-08 01:55:30"
         },
         {
             "name": "delatbabel/applog",
@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delatbabel/viewpages.git",
-                "reference": "03e63fdd443803b4cc722fc3450eb3f3199be10a"
+                "reference": "3307feb1eaf520dc6ac1ad6bce671cfe389eff18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/03e63fdd443803b4cc722fc3450eb3f3199be10a",
-                "reference": "03e63fdd443803b4cc722fc3450eb3f3199be10a",
+                "url": "https://api.github.com/repos/delatbabel/viewpages/zipball/3307feb1eaf520dc6ac1ad6bce671cfe389eff18",
+                "reference": "3307feb1eaf520dc6ac1ad6bce671cfe389eff18",
                 "shasum": ""
             },
             "require": {
@@ -852,7 +852,7 @@
                 "render",
                 "view"
             ],
-            "time": "2016-08-31 07:19:32"
+            "time": "2016-09-08 02:06:11"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
