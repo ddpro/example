@@ -44,6 +44,16 @@ The steps that I took were:
     ]
 ```
 
+Also include the service providers for any other packages that you may have incorporated.  Note that
+AdminServiceProvider bootstraps the service providers for its dependencies but other packages that work
+with DDPro Admin but aren't bootstrapped include:
+
+```
+    Delatbabel\Keylists\KeylistsServiceProvider::class,
+    Delatbabel\Contacts\ContactsServiceProvider::class,
+    Delatbabel\Elocrypt\ElocryptServiceProvider::class,
+```
+
 * Publish the assets, configuration, etc, from the DDPro classes:
 
 ```

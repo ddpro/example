@@ -26,4 +26,3 @@ coverage:
             - vendor/ddpro/admin/src/*
         exclude:
             - vendor/ddpro/admin/src/*.md
-
