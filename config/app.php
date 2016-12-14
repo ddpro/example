@@ -145,6 +145,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // IDE Helper class, really only needed for dev
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
         // Imported package service providers
         DDPro\Admin\AdminServiceProvider::class,
         Delatbabel\Keylists\KeylistsServiceProvider::class,
