@@ -7,12 +7,10 @@
  */
 
 return [
-
     'title' => 'Keyvalues',
-
     'single' => 'keyvalue',
-
     'model' => '\Delatbabel\Keylists\Models\Keyvalue',
+    'server_side'  => true,
 
     /**
      * The display columns
@@ -25,8 +23,11 @@ return [
         'keyname' => [
             'title' => 'Name',
         ],
-        'description' => [
-            'title' => 'Description',
+        'keytype' => [
+            'title'         => 'Key Type',
+            'type'          => 'relationship',
+            'relationship'  => 'keytype',
+            'select'        => "(:table).name",
         ],
     ],
 
@@ -34,7 +35,12 @@ return [
      * The filter set
      */
     'filters' => [
-        'name' => [
+        'keytype'    => [
+            'title'      => 'Type',
+            'type'       => 'relationship',
+            'name_field' => 'name',
+        ],
+        'keyname' => [
             'title' => 'Name',
         ],
     ],
@@ -62,7 +68,8 @@ return [
         ],
         'extended_data' => [
             'title' => 'Extended Data',
-            'type'  => 'textarea',
+            'type'  => 'json',
+            'height' => '400',
         ],
     ],
 

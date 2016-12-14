@@ -50,7 +50,8 @@ return [
         ],
         'extended_data' => [
             'title' => 'Extended Data',
-            'type'  => 'textarea',
+            'type'  => 'json',
+            'height' => '400',
         ],
     ],
 
