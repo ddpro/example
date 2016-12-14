@@ -193,6 +193,11 @@ if [ "$TARGETDEPLOYDB" = "new" ]; then
     ssh ${TARGETUSER}@${TARGETSERVER} "
         cd ${TARGETDIR}
         php artisan db:seed
+        php artisan keylists:loadtimezones
+        php artisan keylists:loadiso3166countries
+        php artisan keylists:loadusdrates
+        php artisan cache:clear
+        php artisan view:clear
     "
 fi
 

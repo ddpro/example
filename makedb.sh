@@ -16,9 +16,9 @@
 # Ensure that dependencies are installed
 #
 if [ -f composer.lock ]; then
-    /usr/local/bin/composer install
+    composer install
 else
-    /usr/local/bin/composer update
+    composer update
 fi
 
 #
@@ -35,6 +35,11 @@ EOFDB
 # Run migrations and seeds
 php artisan migrate
 php artisan db:seed
+php artisan keylists:loadtimezones
+php artisan keylists:loadiso3166countries
+php artisan keylists:loadusdrates
+php artisan cache:clear
+php artisan view:clear
 
 # Clear old data
 /bin/rm -rf storage/framework/views/*
