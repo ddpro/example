@@ -112,5 +112,5 @@ return [
             'height' => 20, //optional, defaults to 100
         ],
     ],
-    'template_handle' => \Delatbabel\ViewPages\Form\PageForm::class,
+    'controller_handler' => \App\Http\Controllers\PageController::class,
 ];
