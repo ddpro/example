@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2016-12-14.
+    * Generated on 2016-12-21.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -137,6 +137,8 @@ namespace PHPSTORM_META {
             'IlluminateQueueClosure' instanceof \IlluminateQueueClosure,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
             'auth.password.tokens' instanceof \Illuminate\Auth\Passwords\DatabaseTokenRepository,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
             'command.ide-helper.generate' instanceof \Barryvdh\LaravelIdeHelper\Console\GeneratorCommand,
             'command.ide-helper.models' instanceof \Barryvdh\LaravelIdeHelper\Console\ModelsCommand,
             'command.ide-helper.meta' instanceof \Barryvdh\LaravelIdeHelper\Console\MetaCommand,
@@ -269,6 +271,8 @@ namespace PHPSTORM_META {
             'IlluminateQueueClosure' instanceof \IlluminateQueueClosure,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
             'auth.password.tokens' instanceof \Illuminate\Auth\Passwords\DatabaseTokenRepository,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
             'command.ide-helper.generate' instanceof \Barryvdh\LaravelIdeHelper\Console\GeneratorCommand,
             'command.ide-helper.models' instanceof \Barryvdh\LaravelIdeHelper\Console\ModelsCommand,
             'command.ide-helper.meta' instanceof \Barryvdh\LaravelIdeHelper\Console\MetaCommand,
@@ -401,6 +405,8 @@ namespace PHPSTORM_META {
             'IlluminateQueueClosure' instanceof \IlluminateQueueClosure,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
             'auth.password.tokens' instanceof \Illuminate\Auth\Passwords\DatabaseTokenRepository,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
             'command.ide-helper.generate' instanceof \Barryvdh\LaravelIdeHelper\Console\GeneratorCommand,
             'command.ide-helper.models' instanceof \Barryvdh\LaravelIdeHelper\Console\ModelsCommand,
             'command.ide-helper.meta' instanceof \Barryvdh\LaravelIdeHelper\Console\MetaCommand,
@@ -533,6 +539,8 @@ namespace PHPSTORM_META {
             'IlluminateQueueClosure' instanceof \IlluminateQueueClosure,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
             'auth.password.tokens' instanceof \Illuminate\Auth\Passwords\DatabaseTokenRepository,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
             'command.ide-helper.generate' instanceof \Barryvdh\LaravelIdeHelper\Console\GeneratorCommand,
             'command.ide-helper.models' instanceof \Barryvdh\LaravelIdeHelper\Console\ModelsCommand,
             'command.ide-helper.meta' instanceof \Barryvdh\LaravelIdeHelper\Console\MetaCommand,
