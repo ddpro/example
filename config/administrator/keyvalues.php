@@ -7,35 +7,35 @@
  */
 
 return [
-    'title' => 'Keyvalues',
-    'single' => 'keyvalue',
-    'model' => '\Delatbabel\Keylists\Models\Keyvalue',
-    'server_side'  => true,
+    'title'       => 'Keyvalues',
+    'single'      => 'keyvalue',
+    'model'       => '\Delatbabel\Keylists\Models\Keyvalue',
+    'server_side' => true,
 
     /**
      * The display columns
      */
-    'columns' => [
+    'columns'     => [
         'id',
         'keyvalue' => [
             'title' => 'Value',
         ],
-        'keyname' => [
+        'keyname'  => [
             'title' => 'Name',
         ],
-        'keytype' => [
-            'title'         => 'Key Type',
-            'type'          => 'relationship',
-            'relationship'  => 'keytype',
-            'select'        => "(:table).name",
+        'keytype'  => [
+            'title'        => 'Key Type',
+            'type'         => 'relationship',
+            'relationship' => 'keytype',
+            'select'       => "(:table).name",
         ],
     ],
 
     /**
      * The filter set
      */
-    'filters' => [
-        'keytype'    => [
+    'filters'     => [
+        'keytype' => [
             'title'      => 'Type',
             'type'       => 'relationship',
             'name_field' => 'name',
@@ -49,29 +49,27 @@ return [
      * The editable fields
      */
     'edit_fields' => [
-        'keytype' => [
+        'keytype'       => [
             'title'      => 'Key Type',
             'type'       => 'relationship',
             'name_field' => 'name',
         ],
-        'keyvalue' => [
+        'keyvalue'      => [
             'title' => 'Value',
             'type'  => 'text',
         ],
-        'keyname' => [
+        'keyname'       => [
             'title' => 'Name',
             'type'  => 'text',
         ],
-        'description' => [
+        'description'   => [
             'title' => 'Description',
             'type'  => 'text',
         ],
         'extended_data' => [
-            'title' => 'Extended Data',
-            'type'  => 'json',
-            'height' => '400',
+            'title'  => 'Extended Data',
+            'type'   => 'json',
+            'height' => '200',
         ],
     ],
-
-    'form_width' => 700,
 ];

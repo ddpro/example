@@ -12,14 +12,14 @@ return [
 
     'single' => 'keytype',
 
-    'model' => '\Delatbabel\Keylists\Models\Keytype',
+    'model'       => '\Delatbabel\Keylists\Models\Keytype',
 
     /**
      * The display columns
      */
-    'columns' => [
+    'columns'     => [
         'id',
-        'name' => [
+        'name'        => [
             'title' => 'Name',
         ],
         'description' => [
@@ -30,7 +30,7 @@ return [
     /**
      * The filter set
      */
-    'filters' => [
+    'filters'     => [
         'name' => [
             'title' => 'Name',
         ],
@@ -40,20 +40,18 @@ return [
      * The editable fields
      */
     'edit_fields' => [
-        'name' => [
+        'name'          => [
             'title' => 'Name',
             'type'  => 'text',
         ],
-        'description' => [
+        'description'   => [
             'title' => 'Description',
             'type'  => 'text',
         ],
         'extended_data' => [
-            'title' => 'Extended Data',
-            'type'  => 'json',
-            'height' => '400',
+            'title'  => 'Extended Data',
+            'type'   => 'json',
+            'height' => '200',
         ],
     ],
-
-    'form_width' => 700,
 ];
