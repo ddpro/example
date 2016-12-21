@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18cc6bc8aa52cf86ed79b636d6db7338",
+    "hash": "92556841f426ad53d7dcc753482c8e5e",
     "content-hash": "496e5078403b164a4ec7f3eeb05c61b5",
     "packages": [
         {
@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ddpro/admin.git",
-                "reference": "340a3dc977be5c331fce94895fb5ed2cee84978c"
+                "reference": "27280024015e052ccf57f0b5fa27a93daea40eb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddpro/admin/zipball/340a3dc977be5c331fce94895fb5ed2cee84978c",
-                "reference": "340a3dc977be5c331fce94895fb5ed2cee84978c",
+                "url": "https://api.github.com/repos/ddpro/admin/zipball/27280024015e052ccf57f0b5fa27a93daea40eb1",
+                "reference": "27280024015e052ccf57f0b5fa27a93daea40eb1",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2016-12-14 09:59:41"
+            "time": "2016-12-20 08:51:22"
         },
         {
             "name": "delatbabel/applog",
@@ -4388,16 +4388,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c14196e64a78570034afd0b7a9f3757ba71c2a0a",
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a",
                 "shasum": ""
             },
             "require": {
@@ -4447,7 +4447,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28 16:00:31"
+            "time": "2016-12-20 15:22:42"
         },
         {
             "name": "phpunit/php-file-iterator",

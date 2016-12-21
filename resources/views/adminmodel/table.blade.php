@@ -1,41 +1,67 @@
-<div class="table_container">
-    <div class="box">
-       <div class="results_header box-header">
-            <h2 class="box-title" data-bind="text: modelTitle"></h2>
-
-            <div class="actions" style="padding-right: 7px;">
-                <!-- ko if: globalActions().length -->
-                    <!-- ko foreach: globalActions -->
-                        <!-- ko if: has_permission -->
-                            <input type="button" data-bind="click: function(){$root.customAction(false, action_name, messages, confirmation)}, value: title,
-                                                                            attr: {disabled: $root.freezeForm() || $root.freezeActions()}" />
-                        <!-- /ko -->
-                    <!-- /ko -->
-                <!-- /ko -->
-                <!-- ko if: actionPermissions.create -->
-                    <a class="new_item btn btn-block btn-primary"
-                        data-bind="attr: {href: base_url + modelName() + '/new'},
-                                    text: '<?php echo trans('administrator::administrator.new') ?> ' + modelSingle()"></a>
-                <!-- /ko -->
-            </div>
-
-            <div class="action_message" data-bind="css: { error: globalStatusMessageType() == 'error', success: globalStatusMessageType() == 'success' },
-                                            notification: globalStatusMessage "></div>
+@if ($config->getOption('server_side') && !empty($filters))
+    @include('adminmodel.filters')
+@endif
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Hover Data Table</h3>
+        <div class="box-tools pull-right">
+            @foreach($globalActions as $arr)
+                @if($arr['has_permission'])
+                    <input type="button" class="btn btn-info"
+                           value="{{$arr['title']}}"/>
+                @endif
+            @endforeach
+            @if(isset($actionPermissions['update']) === true)
+                <a class="edit_item btn btn-primary" style="display: none">
+                    {{trans('administrator::administrator.edit')}} {{$config->getOption('single')}}
+                </a>
+            @endif
+            @if(isset($actionPermissions['create']) === true)
+                <a class="new_item btn btn-primary"
+                   href="{{ route('admin_new_item', [$config->getOption('name')]) }}">
+                    {{trans('administrator::administrator.new')}} {{$config->getOption('single')}}
+                </a>
+            @endif
         </div>
-
-        <table class="table table-bordered table-striped" border="0" cellspacing="0" id="customers" cellpadding="0">
+    </div>
+    <div class="box-body table-responsive">
+        <table class="table table-striped table-bordered table-hover dataTables-example" id="customers">
             <thead>
-                <tr>
-                    <!-- ko foreach: columns -->
-                        <th data-bind="text: title"></th>
-                    <!-- /ko -->
-                </tr>
+            <tr>
+                @foreach($columnModel as $tmpArr)
+                    <th>{{$tmpArr['title']}}</th>
+                @endforeach
+                <th>Actions</th>
+            </tr>
             </thead>
         </table>
     </div>
-
 </div>
-
-<div class="item_edit_container" data-bind="itemTransition: activeItem() !== null || loadingItem(), style: {width: expandWidth() + 'px'}">
-    <div class="item_edit box box-primary" data-bind="template: 'itemFormTemplate', style: 'width: 100% !important;'"></div>
-</div>
+@section('javascript')
+    @parent
+    <script type="text/javascript">
+        $(function () {
+            DataTableHandle.init({
+                src: '#customers',
+                filterApplyAction: '.btn-filter',
+                filterCancelAction: '.btn-filter-reset',
+                editURL: "{!! $route.$config->getOption('name') !!}",
+                deleteURL: "{!! $route.$config->getOption('name') !!}",
+                column_model: {!! json_encode($columnModel) !!},
+                primary_key: "{!! $primaryKey !!}",
+                dataTable: {
+                    "processing": true,
+                    @if ($config->getOption('server_side'))
+                    "searching": false,
+                    "serverSide": true,
+                    @endif
+                    "ajax": {
+                        "url": "{!! route('admin_get_datatable_results', [$config->getOption('name')]) !!}",
+                    },
+                    "columns": {!! json_encode($columnOptions) !!},
+                    dom: '<"html5buttons"B>lTfgitp'
+                }
+            });
+        });
+    </script>
+@endsection
