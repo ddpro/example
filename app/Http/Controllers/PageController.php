@@ -20,7 +20,7 @@ class PageController extends AdminModelController
      */
     public function index($modelName)
     {
-        $bladeName = 'adminmodel_pages.index';
+        $bladeName = 'adminmodel.pages.index';
         \View::composer($bladeName, ModelViewComposer::class);
 
         return $this->view = view($bladeName);
@@ -35,7 +35,7 @@ class PageController extends AdminModelController
      */
     public function item($modelName, $itemId = 0)
     {
-        $bladeName = 'adminmodel_pages.form';
+        $bladeName = 'adminmodel.pages.form';
         \View::composer($bladeName, ModelViewComposer::class);
         parent::item($modelName, $itemId);
 
